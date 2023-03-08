@@ -1,0 +1,24 @@
+
+h1{
+  border: 2px solid blue;
+}
+body{
+  background-image:url(https://st2.depositphotos.com/2084857/9213/i/450/depositphotos_92133748-stock-photo-old-golden-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li a{
+  color: aquamarine;
+}
+
+/*
+EX: 
+
+li a
+vai modificar todos os A que estão dentro de um LI
+
+li > a
+vai modificar apenas os A que forem filhos dos LI, ou seja, que estiver diretamente abaixo
+
+*/

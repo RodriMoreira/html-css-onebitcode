@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: darkgrey;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column ;
+}
+.item{
+  display: flex;
+  width: 200px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#item1{
+  order: 2;
+ 
+}
+#item2{
+  order: 3;
+}
+#item3{
+  order: 1;
+}
+@media(max-width: 390px){
+  #item2{
+    flex: 1 0 620px;
+  }
+}

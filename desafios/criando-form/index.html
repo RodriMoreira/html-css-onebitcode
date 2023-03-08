@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Cadastro da liga dos astronautas</h1>
+  <form action="">
+      <div>
+        Nome:
+        <input type="text">
+      </div>
+      <br>
+      <div>
+        Email:
+        <input type="email">
+        - Password
+        <input type="password">
+      </div>
+      <br>
+      <div>
+        Data de Nascimento:
+        <input type="date">
+        - Foto
+        <input type="file">
+      </div>
+      <br>
+      <div>
+        Nacionalidade:
+        <input list="Nacionalidade">
+        <datalist id="Nacionalidade">
+          <option value="Americano">
+          <option value="Russo">
+        </datalist>
+        - Gênero:
+        <input type="radio" id="Masculino" name="genero" value="masculino">
+        <label for="Masculino">M</label>
+        <input type="radio" id="Feminino" name="genero" value="feminino">
+        <label for="Feminino">F</label>
+      </div>
+      <br>
+      <div>
+        Suas principais Qualidades: <br>
+        <input type="checkbox" id="qualidade1" name="qualidade1" value="Inteligência">
+        <label for="qualidade1">Inteligência |</label>
+        <input type="checkbox" id="qualidade2" name="qualidade2" value="Resiliência">
+        <label for="qualidade2">Resiliência |</label>
+        <input type="checkbox" id="qualidade3" name="qualidade3" value="PreparoFisico">
+        <label for="qualidade3">Preparo Físico |</label>
+        <input type="checkbox" id="qualidade4" name="qualidade4" value="Educação">
+        <label for="qualidade4">Educação |</label>
+      </div>
+      <div>
+        <textarea name="description" id="" cols="30" rows="10" placeholder="Porque você gostaria de ser astronauta?"></textarea>
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Criar">
+      </div>
+  </form>
+</body>
+</html>

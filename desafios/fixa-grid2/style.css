@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+.container{
+  background-color: darkgray;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+.header{
+  background-color: white;
+  border: 2px solid black;
+  width: 100%;
+  height: 60px;
+}
+.items{
+  border: 1px solid black;
+  background-color: white;
+  padding: 20px;
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: 
+  'item1 item1 item1'
+  'item2 item3 item4'
+  'item5 item5 item5'
+  'item6 item6 item7'
+  'item8 item8 item8';
+  gap: 10px 15px; 
+}
+.item1{
+  grid-area: ;
+}
